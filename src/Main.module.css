@@ -1,0 +1,27 @@
+.main {
+    height: 100vh;
+    background-color: #ffc3f7;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid #000;
+    border-top: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    background-color: #6f7b62;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
