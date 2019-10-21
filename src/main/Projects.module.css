@@ -1,40 +1,44 @@
 .projects {
-    height: 100vh;
-    background-color: #81eeff;
+    min-height: 100vh;
+    background-color: #ffc3f7;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
-    border: 1px solid #000;
     width: 80%;
-    margin: 50px 0;
     display: flex;
     flex-direction: column;
 }
 
 .allProjects {
     background-color: #2f7b6a;
-    width: 100%;
-    height: 15%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0;
+    flex-wrap: wrap;
 }
 
 .myProjects {
-    background-color: #777b77;
-    width: 100%;
-    height: 85%;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
 }
 
 .item {
-    width: 50%;
-    background-color: #78797b;
+    background-color: #d6d276;
+    width: 470px;
 }
 
 .logoItem img {
-    width: 100%;
+    width: 70%;
+    margin: 10px 0;
 }
 
 .tittleItem {
@@ -53,6 +57,15 @@
 
 .linkItem a {
     text-decoration: none;
-    color: #81eeff;
+    color: #2f7b6a;
 }
 
+.linkItem a:hover {
+    color: red;
+}
+
+@media (max-width: 986px) {
+    .item {
+        width: auto;
+    }
+}

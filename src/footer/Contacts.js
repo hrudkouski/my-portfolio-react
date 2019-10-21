@@ -8,14 +8,11 @@ function Contacts() {
                 <div className={styles.contactsText}>
                     Contacts
                 </div>
-                <div className={styles.contactsForm}>
-                    <div className={styles.contactsFormGroup}>
-                    </div>
-                    <div className={styles.contactsFormGroup}>
-                    </div>
-                    <div className={styles.contactsFormGroup}>
-                    </div>
-                </div>
+                <form className={styles.contactsForm}>
+                    <input/>
+                    <input/>
+                    <textarea placeholder='write me something...'/>
+                </form>
                 <div className={styles.contactsFormButton}>
                     <button>Submit</button>
                 </div>

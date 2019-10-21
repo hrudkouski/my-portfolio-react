@@ -20,7 +20,10 @@ function Skills() {
                             JavaScript often abbreviated as JS, is a high-level, interpreted
                             scripting language that conforms to the ECMAScript specification. JavaScript has
                             curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class
-                            functions...
+                            functions. Alongside HTML and CSS, JavaScript is one of the core technologies of the World
+                            Wide Web. JavaScript enables interactive web pages and is an essential part of web
+                            applications. The vast majority of websites use it, and major web browsers have a
+                            dedicated JavaScript engine to execute it...
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -34,7 +37,10 @@ function Skills() {
                         <div className={styles.textItem}>
                             HTML5 is a software solution stack that defines the properties and behaviors of web page
                             content by implementing a markup based pattern to it.
-                            HTML5 is the fifth and current major version of HTML, and subsumes XHTML...
+                            HTML5 is the fifth and current major version of HTML, and subsumes XHTML. The current
+                            standard, the HTML Living Standard is developed by WHATWG, which is made up of the major
+                            browser vendors (Apple, Google, Mozilla, and Microsoft), with the Living Standard also
+                            existing in an abridged version....
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -48,7 +54,11 @@ function Skills() {
                         <div className={styles.textItem}>
                             React (also known as React.js or ReactJS) is a JavaScript library for building user
                             interfaces. It is maintained by Facebook and a community of individual developers and
-                            companies...
+                            companies. React can be used as a base in the development of single-page or mobile
+                            applications, as it is optimal for fetching rapidly changing data that needs to be recorded.
+                            However, fetching data is only the beginning of what happens on a web page which is why
+                            complex React applications usually require the use of additional libraries for state
+                            management, routing, and interaction with an API...
                         </div>
                     </div>
                 </div>

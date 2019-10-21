@@ -12,14 +12,15 @@ function Projects() {
                     <div className={styles.item}>
                         <div className={styles.logoItem}>
                             <img
-                                src="https://www.topsinfosolutions.com/wp-content/uploads/2019/04/Social-Networking-App-in-React.png"
+                                src="https://i.pinimg.com/originals/ae/3b/a3/ae3ba32eecfd132d50fde568ecbc3fd5.png"
                                 alt="javaScript"/>
                         </div>
                         <div className={styles.tittleItem}>Social Network</div>
                         <div className={styles.textItem}>
                             A social network is a social structure made up of a set of social actors (such as
                             individuals or organizations), sets of dyadic ties, and other social interactions between
-                            actors...
+                            actors. The social network perspective provides a set of methods for analyzing the structure
+                            of whole social entities...
                         </div>
                         <div className={styles.linkItem}>
                             <a href='https://hrudkouski.github.io/social-network-react/'>
@@ -30,7 +31,7 @@ function Projects() {
                     <div className={styles.item}>
                         <div className={styles.logoItem}>
                             <img
-                                src="https://images.examples.com/wp-content/uploads/2017/11/Square-Portfolio-Brochure-Example.jpg"
+                                src="http://pngimg.com/uploads/pinterest/pinterest_PNG29.png"
                                 alt="javaScript"/>
                         </div>
                         <div className={styles.tittleItem}>React.Js Portfolio</div>

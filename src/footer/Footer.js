@@ -21,15 +21,6 @@ function Footer() {
                     <div className={styles.socialItem}>
                         <a href="https://www.linkedin.com">li</a>
                     </div>
-                    <div className={styles.socialItem}>
-                        <a href="https://twitter.com">tw</a>
-                    </div>
-                    <div className={styles.socialItem}>
-                        <a href="https://www.youtube.com">yo</a>
-                    </div>
-                    <div className={styles.socialItem}>
-                        <a href="https://www.facebook.com">fa</a>
-                    </div>
                 </div>
                 <div className={styles.footerCopyright}>
                     &copy;2019 All Rights Reserved

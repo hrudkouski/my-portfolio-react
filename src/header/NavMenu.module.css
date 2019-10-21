@@ -1,13 +1,17 @@
 .navMenu {
-    width: 60%;
+    width: 400px;
     display: flex;
     justify-content: space-between;
-    border: black 1px solid;
-    background-color: #68ffb9;
+    flex-wrap: wrap;
 }
 
 .link {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    margin: 0 2px;
+}
+
+.link:hover {
+    color: red;
 }
