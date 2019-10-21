@@ -1,0 +1,58 @@
+.projects {
+    height: 100vh;
+    background-color: #81eeff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid #000;
+    width: 80%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.allProjects {
+    background-color: #2f7b6a;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+
+.myProjects {
+    background-color: #777b77;
+    width: 100%;
+    height: 85%;
+    text-align: center;
+    display: flex;
+}
+
+.item {
+    width: 50%;
+    background-color: #78797b;
+}
+
+.logoItem img {
+    width: 100%;
+}
+
+.tittleItem {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textItem {
+    margin: 10px 0;
+}
+
+.linkItem {
+    margin: 10px 0;
+}
+
+.linkItem a {
+    text-decoration: none;
+    color: #81eeff;
+}
+

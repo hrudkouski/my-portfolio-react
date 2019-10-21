@@ -1,0 +1,13 @@
+.navMenu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border: black 1px solid;
+    background-color: #68ffb9;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

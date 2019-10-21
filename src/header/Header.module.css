@@ -1,12 +1,11 @@
 .header {
-    height: 70px;
+    height: 10vh;
     background-color: #b7e2ff;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    border: 1px solid #000;
     width: 80%;
     display: flex;
     justify-content: flex-end;

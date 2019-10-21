@@ -1,2 +1,10 @@
-.App {
+.bodyApp {
+    background-color: #f1d8ff;
 }
+
+.App {
+    border: 3px solid #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
