@@ -1,6 +1,6 @@
 .projects {
     min-height: 100vh;
-    background-color: #ffc3f7;
+    background-color: #1F1F20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,6 @@
 }
 
 .allProjects {
-    background-color: #2f7b6a;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -32,7 +31,6 @@
 }
 
 .item {
-    background-color: #d6d276;
     width: 470px;
 }
 

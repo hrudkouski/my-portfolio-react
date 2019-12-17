@@ -1,6 +1,6 @@
 .slogan {
     min-height: 50vh;
-    background-color: #ffc3f7;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,6 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(125, 30, 50, 0.22);
 }
 
 .sloganText {
