@@ -10,17 +10,12 @@ function Projects() {
                 </div>
                 <div className={styles.myProjects}>
                     <div className={styles.item}>
-                        <div className={styles.logoItem}>
-                            <img
-                                src="https://i.pinimg.com/originals/ae/3b/a3/ae3ba32eecfd132d50fde568ecbc3fd5.png"
-                                alt="javaScript"/>
-                        </div>
-                        <div className={styles.tittleItem}>Social Network</div>
+                        <div className={styles.logoItem + ' ' + styles.logoPortfolio}> </div>
+                        <div className={styles.tittleItem}>React.Js Portfolio</div>
                         <div className={styles.textItem}>
-                            A social network is a social structure made up of a set of social actors (such as
-                            individuals or organizations), sets of dyadic ties, and other social interactions between
-                            actors. The social network perspective provides a set of methods for analyzing the structure
-                            of whole social entities...
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat...
                         </div>
                         <div className={styles.linkItem}>
                             <a href='https://hrudkouski.github.io/social-network-react/'>
@@ -29,17 +24,40 @@ function Projects() {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <div className={styles.logoItem}>
-                            <img
-                                src="http://pngimg.com/uploads/pinterest/pinterest_PNG29.png"
-                                alt="javaScript"/>
-                        </div>
-                        <div className={styles.tittleItem}>React.Js Portfolio</div>
+                        <div className={styles.logoItem + ' ' + styles.logoToDoList}> </div>
+                        <div className={styles.tittleItem}>To Do List</div>
                         <div className={styles.textItem}>
-                            Career portfolios are used to plan, organize and document education, work samples and
-                            skills. People use career portfolios to apply for jobs, apply to college or training
-                            programs. They are more in-depth than a resume, which is used to summarize the above in one
-                            or two pages...
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat...
+                        </div>
+                        <div className={styles.linkItem}>
+                            <a href='https://hrudkouski.github.io/my-portfolio-react/'>
+                                You can see project on GitHub Pages
+                            </a>
+                        </div>
+                    </div>
+                    <div className={styles.item}>
+                        <div className={styles.logoItem + ' ' + styles.logoCounter}> </div>
+                        <div className={styles.tittleItem}>Counter</div>
+                        <div className={styles.textItem}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat...
+                        </div>
+                        <div className={styles.linkItem}>
+                            <a href='https://hrudkouski.github.io/social-network-react/'>
+                                You can see project on GitHub Pages
+                            </a>
+                        </div>
+                    </div>
+                    <div className={styles.item}>
+                        <div className={styles.logoItem + ' ' + styles.logoDogGame}> </div>
+                        <div className={styles.tittleItem}>Dog Game</div>
+                        <div className={styles.textItem}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat...
                         </div>
                         <div className={styles.linkItem}>
                             <a href='https://hrudkouski.github.io/my-portfolio-react/'>

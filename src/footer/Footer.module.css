@@ -1,9 +1,10 @@
 .footer {
     min-height: 30vh;
-    background-color: #2B2B2D;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 .footerContainer {
@@ -16,7 +17,12 @@
 
 .footerText {
     text-align: center;
-    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: block;
 }
 
 .footerSocial {
@@ -24,16 +30,42 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 250px;
+    width: 350px;
     align-items: center;
 }
 
 .socialItem {
-    padding: 20px;
-    width: 10px;
-    background-color: #2f7b6a;
     flex-wrap: wrap;
     display: flex;
+}
+
+.socialItemIcon {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+.gitHubIcon {
+    background-image: url("../assets/images/github.svg");
+}
+
+.codeWarsIcon {
+    background-image: url("../assets/images/codewars.png");
+}
+
+.instagramIcon {
+    background-image: url("../assets/images/instagram.svg");
+}
+
+.linkedInIcon {
+    background-image: url("../assets/images/linkedin.svg");
+}
+
+.telegramIcon {
+    background-image: url("../assets/images/telegram.svg");
 }
 
 .socialItem a {
@@ -42,7 +74,9 @@
 
 .footerCopyright {
     text-align: center;
-    font-weight: bold;
+    font: 400 16px 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 20px;
 }
 
 

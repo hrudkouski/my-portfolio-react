@@ -15,6 +15,8 @@
 }
 
 .link:hover {
-    color: #ea548d;
-    transition: 0.3s;
+    color: #45f3ff;
+    transition: 0.1s;
+    transform: scale(1.1);
+    text-decoration: underline;
 }

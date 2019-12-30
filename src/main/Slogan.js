@@ -6,8 +6,9 @@ function Slogan() {
         <div className={styles.slogan}>
             <div className={styles.sloganContainer}>
                 <div className={styles.sloganText}>
-                    I am considering a job where I would work remotely
+                    I Am Available For Freelancer
                 </div>
+                <div className={styles.moduleLine}> </div>
                 <div className={styles.sloganButton}>
                     <button>Hire me</button>
                 </div>

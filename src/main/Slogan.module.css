@@ -14,12 +14,20 @@
     flex-direction: column;
 }
 
+.moduleLine {
+    background: #45f3ff;
+    width: 170px;
+    height: 1px;
+    margin: 30px auto;
+}
+
 .sloganText {
     width: 70%;
     text-align: center;
-    font-size: 1.3em;
-    font-weight: bold;
     margin-bottom: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    font: 500 40px/1.2 'Josefin Sans', sans-serif;
 }
 
 .contactsForm {
@@ -30,10 +38,18 @@
 }
 
 .sloganButton button {
-    padding: 10px 50px;
-    background-color: #b7e2ff;
+    padding: 5px 20px;
+    outline: none;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background: #45f3ff;
+    cursor: pointer;
 }

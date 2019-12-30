@@ -9,9 +9,9 @@ function Contacts() {
                     Contacts
                 </div>
                 <form className={styles.contactsForm}>
-                    <input/>
-                    <input/>
-                    <textarea placeholder='write me something...'/>
+                    <input placeholder='Write your name'/>
+                    <input placeholder='Write your phone number'/>
+                    <textarea placeholder='Write me something...'/>
                 </form>
                 <div className={styles.contactsFormButton}>
                     <button>Submit</button>

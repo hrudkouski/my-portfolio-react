@@ -1,11 +1,11 @@
 .header {
     height: 90px;
-    background-color: #2b2b2d;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 2;
 }
 
 .container {
