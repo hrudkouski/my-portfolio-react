@@ -8,10 +8,11 @@ function Contacts() {
                 <div className={styles.contactsText}>
                     Contacts
                 </div>
+                <div className={styles.moduleLine}> </div>
                 <form className={styles.contactsForm}>
-                    <input placeholder='Write your name'/>
-                    <input placeholder='Write your phone number'/>
-                    <textarea placeholder='Write me something...'/>
+                    <input placeholder='Name'/>
+                    <input placeholder='E-mail'/>
+                    <textarea required="" placeholder='Your message'/>
                 </form>
                 <div className={styles.contactsFormButton}>
                     <button>Submit</button>

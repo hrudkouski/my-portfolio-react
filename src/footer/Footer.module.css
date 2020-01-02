@@ -19,10 +19,9 @@
     text-align: center;
     letter-spacing: 3px;
     color: #fff;
-    font-size: 22px;
-    font-weight: 700;
     margin-bottom: 20px;
     display: block;
+    font: 700 25px/1.2 'Josefin Sans', sans-serif;
 }
 
 .footerSocial {
@@ -46,6 +45,11 @@
     background-size: 100%;
     margin: 0 auto;
     transition: 1s;
+}
+
+.socialItemIcon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 .gitHubIcon {

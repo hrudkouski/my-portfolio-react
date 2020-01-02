@@ -20,7 +20,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className={styles.socialItem}>
-                        <a target="blank" href="https://www.linkedin.com/">
+                        <a target="blank" href="https://www.linkedin.com/in/mikita-hrudkouski-87257319a/">
                             <div className={styles.socialItemIcon + ' ' + styles.linkedInIcon}> </div>
                         </a>
                     </div>
@@ -36,7 +36,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.footerCopyright}>
-                    &copy;2019 All Rights Reserved
+                    &copy;2020 All Rights Reserved
                 </div>
             </div>
         </div>

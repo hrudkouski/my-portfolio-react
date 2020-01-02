@@ -18,21 +18,7 @@ function Projects() {
                             laboris nisi ut aliquip ex ea commodo consequat...
                         </div>
                         <div className={styles.linkItem}>
-                            <a href='https://hrudkouski.github.io/social-network-react/'>
-                                You can see project on GitHub Pages
-                            </a>
-                        </div>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.logoItem + ' ' + styles.logoToDoList}> </div>
-                        <div className={styles.tittleItem}>To Do List</div>
-                        <div className={styles.textItem}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat...
-                        </div>
-                        <div className={styles.linkItem}>
-                            <a href='https://hrudkouski.github.io/my-portfolio-react/'>
+                            <a target="blank" href='https://hrudkouski.github.io/my-portfolio-react/'>
                                 You can see project on GitHub Pages
                             </a>
                         </div>
@@ -46,7 +32,7 @@ function Projects() {
                             laboris nisi ut aliquip ex ea commodo consequat...
                         </div>
                         <div className={styles.linkItem}>
-                            <a href='https://hrudkouski.github.io/social-network-react/'>
+                            <a target="blank" href='https://hrudkouski.github.io/counter-react/'>
                                 You can see project on GitHub Pages
                             </a>
                         </div>
@@ -60,7 +46,21 @@ function Projects() {
                             laboris nisi ut aliquip ex ea commodo consequat...
                         </div>
                         <div className={styles.linkItem}>
-                            <a href='https://hrudkouski.github.io/my-portfolio-react/'>
+                            <a target="blank" href='https://github.com/hrudkouski/dog-app-react/'>
+                                You can see project on GitHub Pages
+                            </a>
+                        </div>
+                    </div>
+                    <div className={styles.item}>
+                        <div className={styles.logoItem + ' ' + styles.logoToDoList}> </div>
+                        <div className={styles.tittleItem}>To Do List</div>
+                        <div className={styles.textItem}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat...
+                        </div>
+                        <div className={styles.linkItem}>
+                            <a target="blank" href='https://github.com/hrudkouski/toDoList'>
                                 You can see project on GitHub Pages
                             </a>
                         </div>

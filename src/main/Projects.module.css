@@ -40,8 +40,8 @@
 }
 
 .logoItem {
-    width: 470px;
-    height: 230px;
+    width: 405px;
+    height: 195px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0 auto;
@@ -76,6 +76,10 @@
     font-weight: bold;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
+    color: #45f3ff;
+}
+.tittleItem:hover {
+    color: #fff;
 }
 
 .textItem {
@@ -105,5 +109,38 @@
 @media screen and (max-width: 1024px) {
     .Skills_description__125li {
         justify-content: center;
+    }
+}
+
+@media (max-width: 1310px) {
+    .myProjects {
+        justify-content: center;
+    }
+    .item {
+        width: 800px;
+    }
+    .Projects_logoItem__3dALu {
+        width: 500px;
+        height: 245px;
+    }
+}
+
+@media (max-width: 1310px) {
+    .myProjects {
+        justify-content: center;
+    }
+    .item {
+        width: 800px;
+    }
+    .Projects_logoItem__3dALu {
+        width: 500px;
+        height: 245px;
+    }
+}
+
+@media (max-width: 626px) {
+    .logoItem {
+        width: 365px;
+        height: 180px;
     }
 }

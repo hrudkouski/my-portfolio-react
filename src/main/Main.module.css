@@ -92,5 +92,18 @@ h1 {
     }
 }
 
+@media (max-width: 535px) {
+    .photo {
+        width: 330px;
+        height: 420px;
+    }
+
+    .photo:before {
+        height: 385px;
+        width: 330px;
+        bottom: 40px;
+        right: -15px;
+    }
+}
 
 

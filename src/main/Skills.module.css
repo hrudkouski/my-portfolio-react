@@ -59,10 +59,11 @@
     font-weight: bold;
     font-size: 1.5em;
     margin: 10px 0;
+    color: #45f3ff;
 }
 
 .tittleItem:hover {
-    color: #45f3ff;
+    color: #fff;
 }
 
 .textItem {
@@ -109,11 +110,5 @@
 @media screen and (max-width: 986px) {
     .item {
         width: auto;
-    }
-}
-
-@media screen and (max-width: 1252px) {
-    .description {
-        justify-content: center;
     }
 }

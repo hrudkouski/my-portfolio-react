@@ -12,6 +12,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin: 30px 0;
 }
 
 .moduleLine {
@@ -24,7 +25,7 @@
 .sloganText {
     width: 70%;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0;
     color: #fff;
     text-transform: capitalize;
     font: 500 40px/1.2 'Josefin Sans', sans-serif;
