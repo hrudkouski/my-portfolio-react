@@ -8,6 +8,7 @@ function Projects() {
                 <div className={styles.allProjects}>
                     My projects
                 </div>
+                <div className={styles.moduleLine}> </div>
                 <div className={styles.myProjects}>
                     <div className={styles.item}>
                         <div className={styles.logoItem + ' ' + styles.logoPortfolio}> </div>
