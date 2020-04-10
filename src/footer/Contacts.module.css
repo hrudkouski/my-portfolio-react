@@ -24,10 +24,6 @@
     letter-spacing: 5px;
 }
 
-.contactsText:hover {
-    color: #45f3ff;
-}
-
 .moduleLine {
     background: #45f3ff;
     width: 170px;
@@ -52,6 +48,15 @@ input, textarea {
     background: #252527 !important;
     border: 1px solid #4a4a4a;
     padding: 0 10px;
+    color: #45f3ff;
+}
+
+input:focus, textarea:focus {
+    border: none;
+}
+
+input, textarea {
+    outline: none;
 }
 
 textarea {

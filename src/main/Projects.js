@@ -10,6 +10,7 @@ function Projects() {
                 </div>
                 <div className={styles.moduleLine}> </div>
                 <div className={styles.myProjects}>
+
                     <div className={styles.item}>
                         <div className={styles.logoItem + ' ' + styles.logoPortfolio}> </div>
                         <div className={styles.tittleItem}>React.Js Portfolio</div>
@@ -24,6 +25,7 @@ function Projects() {
                             </a>
                         </div>
                     </div>
+
                     <div className={styles.item}>
                         <div className={styles.logoItem + ' ' + styles.logoCounter}> </div>
                         <div className={styles.tittleItem}>Counter</div>
@@ -38,6 +40,7 @@ function Projects() {
                             </a>
                         </div>
                     </div>
+
                     <div className={styles.item}>
                         <div className={styles.logoItem + ' ' + styles.logoDogGame}> </div>
                         <div className={styles.tittleItem}>Dog Game</div>
@@ -52,6 +55,7 @@ function Projects() {
                             </a>
                         </div>
                     </div>
+
                     <div className={styles.item}>
                         <div className={styles.logoItem + ' ' + styles.logoToDoList}> </div>
                         <div className={styles.tittleItem}>To Do List</div>
@@ -66,6 +70,7 @@ function Projects() {
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

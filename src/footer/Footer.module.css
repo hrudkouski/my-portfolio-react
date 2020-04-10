@@ -20,7 +20,6 @@
     letter-spacing: 3px;
     color: #fff;
     margin-bottom: 20px;
-    display: block;
     font: 700 25px/1.2 'Josefin Sans', sans-serif;
 }
 
@@ -39,37 +38,17 @@
 }
 
 .socialItemIcon {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0 auto;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .socialItemIcon:hover {
     transform: scale(1.2);
     transition: 0.5s;
-}
-
-.gitHubIcon {
-    background-image: url("../assets/images/github.svg");
-}
-
-.codeWarsIcon {
-    background-image: url("../assets/images/codewars.png");
-}
-
-.instagramIcon {
-    background-image: url("../assets/images/instagram.svg");
-}
-
-.linkedInIcon {
-    background-image: url("../assets/images/linkedin.png");
-}
-
-.telegramIcon {
-    background-image: url("../assets/images/telegram.svg");
 }
 
 .socialItem a {

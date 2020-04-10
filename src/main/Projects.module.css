@@ -3,7 +3,6 @@
     background-color: #1F1F20;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 30px 0;
 }
 
@@ -11,6 +10,7 @@
     width: 80%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .allProjects {
@@ -58,15 +58,15 @@
 }
 
 .logoPortfolio {
-    background-image: url("../assets/images/portfolio.png");
+    background-image: url("../assets/images/portfolio.webp");
 }
 
 .logoToDoList {
-    background-image: url("../assets/images/toDoList.png");
+    background-image: url("../assets/images/toDoList.webp");
 }
 
 .logoCounter {
-    background-image: url("../assets/images/counter.png");
+    background-image: url("../assets/images/counter.webp");
 }
 
 .logoDogGame {
@@ -80,6 +80,7 @@
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     color: #45f3ff;
+    letter-spacing: 1px;
 }
 
 .textItem {
@@ -116,22 +117,7 @@
     .myProjects {
         justify-content: center;
     }
-    .item {
-        width: 800px;
-    }
-    .Projects_logoItem__3dALu {
-        width: 500px;
-        height: 245px;
-    }
-}
 
-@media (max-width: 1310px) {
-    .myProjects {
-        justify-content: center;
-    }
-    .item {
-        width: 800px;
-    }
     .Projects_logoItem__3dALu {
         width: 500px;
         height: 245px;

@@ -10,12 +10,14 @@ function Contacts() {
                 </div>
                 <div className={styles.moduleLine}> </div>
                 <form className={styles.contactsForm}>
-                    <input placeholder='Name'/>
-                    <input placeholder='E-mail'/>
+                    <input placeholder='Name'
+                           type='text'/>
+                    <input placeholder='E-mail'
+                           type='email'/>
                     <textarea required="" placeholder='Your message'/>
                 </form>
                 <div className={styles.contactsFormButton}>
-                    <button>Submit</button>
+                    <button type='submit'>Submit</button>
                 </div>
             </div>
         </div>
