@@ -8,6 +8,7 @@ import telegramIcon from '../assets/images/telegram.svg';
 
 
 function Footer() {
+
     return (
         <div className={styles.footer}>
             <div className={styles.footerContainer}>

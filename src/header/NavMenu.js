@@ -1,13 +1,45 @@
 import React from 'react';
 import styles from './NavMenu.module.css';
+import {Link} from "react-scroll";
 
 function NavMenu() {
+
+    // import {Link, animateScroll as scroll} from "react-scroll";
+
+    // scrollToTop = () => {
+    //     scroll.scrollToTop();
+    // };
+
     return (
         <div className={styles.navMenu}>
-            <a href="https://www.google.by" className={styles.link}>Home</a>
-            <a href="https://www.google.by" className={styles.link}>Skills</a>
-            <a href="https://www.google.by" className={styles.link}>Projects</a>
-            <a href="https://www.google.by" className={styles.link}>Contacts</a>
+            <Link activeClass={styles.active}
+                  to="Home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className={styles.link}>Home</Link>
+            <Link activeClass={styles.active}
+                  to="Skills"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className={styles.link}>Skills</Link>
+            <Link activeClass={styles.active}
+                  to="Projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className={styles.link}>Projects</Link>
+            <Link activeClass={styles.active}
+                  to="Contacts"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className={styles.link}>Contacts</Link>
         </div>
     );
 }

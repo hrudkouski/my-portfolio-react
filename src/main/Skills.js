@@ -11,7 +11,7 @@ import logoRedux from "../assets/images/reduxLogo.svg";
 function Skills() {
 
     return (
-        <div className={styles.skills}>
+        <div id='Skills' className={styles.skills}>
             <div className={styles.container}>
                 <h2 className={styles.mySkills}>
                     My skills

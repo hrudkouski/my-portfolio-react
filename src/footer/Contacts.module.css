@@ -38,12 +38,6 @@
     flex-direction: column;
 }
 
-.contactsFormButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 input, textarea {
     margin: 10px 0;
     background: #252527 !important;
@@ -67,23 +61,6 @@ textarea {
 
 input {
     min-height: 25px;
-}
-
-.contactsFormButton button {
-    font-weight: bold;
-    padding: 5px 20px;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 10px 10px 10px;
-    font-size: 18px;
-    height: 50px;
-    width: 150px;
-    border-radius: 10px;
-    border: none;
-    background: #45f3ff;
-    cursor: pointer;
 }
 
 @media (max-width: 1024px) {

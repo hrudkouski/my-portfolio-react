@@ -15,6 +15,10 @@
 }
 
 .link:hover {
+    cursor: pointer;
+}
+
+.navMenu > .active {
     color: #45f3ff;
     transition: 0.1s;
     transform: scale(1.1);

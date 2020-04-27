@@ -9,7 +9,7 @@ import logoDogGame from "../assets/images/dogGame.png";
 function Projects() {
 
     return (
-        <div className={styles.projects}>
+        <div id='Projects' className={styles.projects}>
             <div className={styles.container}>
                 <div className={styles.allProjects}>
                     My projects
