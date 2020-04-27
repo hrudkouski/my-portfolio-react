@@ -32,15 +32,16 @@ function Footer() {
                         </a>
                     </div>
                     <div className={styles.socialItem}>
-                        <a target="blank" href="https://www.linkedin.com/in/mikitagrudkowski/">
+                        <a target="blank" href="https://www.instagram.com/hrudkouski/">
                             <img src={instagramIcon}
                                  alt={'instagramIcon'}
                                  title={'instagramIcon'}
                                  className={styles.socialItemIcon}/>
                         </a>
+
                     </div>
                     <div className={styles.socialItem}>
-                        <a target="blank" href="https://www.instagram.com/hrudkouski/">
+                        <a target="blank" href="https://www.linkedin.com/in/mikitagrudkowski/">
                             <img src={linkedInIcon}
                                  alt={'linkedInIcon'}
                                  title={'linkedInIcon'}

@@ -1,0 +1,79 @@
+.item {
+    width: 470px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.logoItem img{
+    width: 405px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    transition: 1s;
+    border: #45f3ff solid 1px;
+    border-radius: 15px;
+}
+
+.logoItem img:hover {
+    transform: scale(1.025);
+}
+
+.logoToDoList {
+    background-image: url("../assets/images/toDoList.webp");
+}
+
+.logoDogGame {
+    background-image: url("../assets/images/dogGame.png");
+}
+
+.tittleItem {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #45f3ff;
+    letter-spacing: 1px;
+}
+
+.textItem {
+    margin: 10px 0;
+}
+
+.linkItem {
+    margin: 10px 0;
+}
+
+.linkItem a {
+    color: #45f3ff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.linkItem a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 986px) {
+    .item {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Skills_description__125li {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1310px) {
+    .myProjects {
+        justify-content: center;
+    }
+
+    .logoItem img {
+        width: 350px;
+        height: 200px;
+    }
+}

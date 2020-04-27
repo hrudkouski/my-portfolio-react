@@ -20,7 +20,6 @@ function Contacts() {
                     <button type='submit'>Submit</button>
                 </div>
             </div>
-
         </div>
     );
 }

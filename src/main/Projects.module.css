@@ -37,70 +37,6 @@
     width: auto;
 }
 
-.item {
-    width: 470px;
-    margin-bottom: 70px;
-}
-
-.logoItem {
-    width: 405px;
-    height: 195px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 0 auto;
-    transition: 1s;
-    border: #45f3ff solid 1px;
-    border-radius: 15px;
-}
-
-.logoItem:hover {
-    transform: scale(1.05);
-}
-
-.logoPortfolio {
-    background-image: url("../assets/images/portfolio.webp");
-}
-
-.logoToDoList {
-    background-image: url("../assets/images/toDoList.webp");
-}
-
-.logoCounter {
-    background-image: url("../assets/images/counter.webp");
-}
-
-.logoDogGame {
-    background-image: url("../assets/images/dogGame.png");
-}
-
-.tittleItem {
-    margin: 10px 0;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5em;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #45f3ff;
-    letter-spacing: 1px;
-}
-
-.textItem {
-    margin: 10px 0;
-}
-
-.linkItem {
-    margin: 10px 0;
-}
-
-.linkItem a {
-    color: #45f3ff;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.linkItem a:hover {
-    color: #ffffff;
-}
-
 @media (max-width: 986px) {
     .item {
         width: auto;
@@ -121,12 +57,5 @@
     .Projects_logoItem__3dALu {
         width: 500px;
         height: 245px;
-    }
-}
-
-@media (max-width: 626px) {
-    .logoItem {
-        width: 365px;
-        height: 180px;
     }
 }

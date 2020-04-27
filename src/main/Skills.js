@@ -9,6 +9,7 @@ import logoReact from "../assets/images/reactLogo.svg";
 import logoRedux from "../assets/images/reduxLogo.svg";
 
 function Skills() {
+
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
