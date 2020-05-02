@@ -25,13 +25,6 @@
     letter-spacing: 5px;
 }
 
-.moduleLine {
-    background: #45f3ff;
-    width: 170px;
-    height: 1px;
-    margin: 30px auto;
-}
-
 .contactsForm {
     display: flex;
     justify-content: center;

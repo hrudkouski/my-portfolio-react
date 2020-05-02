@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Project.module.css';
-import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 function Project(props) {
     return (
-        <Slide left>
+        <Zoom clear>
             <div className={styles.item}>
                 <div className={styles.logoItem}>
                     <img src={props.logo} alt="logo"/>
@@ -17,7 +17,7 @@ function Project(props) {
                     </a>
                 </div>
             </div>
-        </Slide>
+        </Zoom>
     );
 }
 

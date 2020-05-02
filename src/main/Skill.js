@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Skill.module.css';
-import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 function Skill(props) {
     return (
-        <Slide right>
+        <Zoom clear>
             <div className={styles.skill}>
                 <div className={styles.logo}>
                     <img src={props.logo} alt="logo"/>
@@ -16,7 +16,7 @@ function Skill(props) {
                     {props.textItem}
                 </div>
             </div>
-        </Slide >
+        </Zoom >
     );
 }
 

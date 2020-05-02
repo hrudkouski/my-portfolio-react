@@ -94,17 +94,17 @@ h1 {
     }
 }
 
-@media (max-width: 535px) {
+@media (max-width: 580px) {
     .photo img {
         width: 330px;
-        height: 420px;
+        height: 370px;
     }
-
-    .photo img:before {
-        height: 385px;
-        width: 330px;
-        bottom: 40px;
-        right: -15px;
+    .photo:before {
+        content: none;
+    }
+    .photo:hover {
+        transform: none;
+        transition: none;
     }
 }
 

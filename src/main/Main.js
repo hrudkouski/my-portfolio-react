@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css';
 import Flip from 'react-reveal/Flip';
-import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 import ava from '../assets/images/ava.webp';
 
 function Main() {
@@ -15,13 +15,13 @@ function Main() {
                         <h1>I am a front-end developer</h1>
                     </div>
                 </Flip>
-                <Fade right>
+                <Zoom clear>
                     <div className={styles.ava}>
                         <div className={styles.photo}>
                             <img src={ava} alt="ava"/>
                         </div>
                     </div>
-                </Fade>
+                </Zoom>
             </div>
         </div>
     );

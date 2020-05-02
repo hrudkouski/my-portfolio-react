@@ -16,13 +16,6 @@
     margin: 30px 0;
 }
 
-.moduleLine {
-    background: #45f3ff;
-    width: 170px;
-    height: 1px;
-    margin: 0 auto 50px;
-}
-
 .sloganText {
     width: 70%;
     text-align: center;
@@ -30,4 +23,11 @@
     color: #fff;
     text-transform: capitalize;
     font: 500 40px/1.2 'Josefin Sans', sans-serif;
+}
+
+@media (max-width: 580px) {
+    .sloganText {
+        width: 80%;
+        margin: 30px 0;
+    }
 }

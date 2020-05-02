@@ -5,6 +5,7 @@ import logoPortfolio from "../assets/images/portfolio.webp";
 import logoCounter from "../assets/images/counter.webp";
 import logoToDoList from "../assets/images/toDoList.webp";
 import logoDogGame from "../assets/images/dogGame.png";
+import ModuleLine from "./ModuleLine";
 
 function Projects() {
 
@@ -14,7 +15,7 @@ function Projects() {
                 <div className={styles.allProjects}>
                     My projects
                 </div>
-                <div className={styles.moduleLine}> </div>
+                <ModuleLine/>
                 <div className={styles.myProjects}>
                     <Project tittleItem={'React.Js Portfolio'}
                              linkItem={'https://hrudkouski.github.io/my-portfolio-react/'}

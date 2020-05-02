@@ -7,6 +7,7 @@ import logoCSS from "../assets/images/cssLogo.svg";
 import logoJS from "../assets/images/jsLogo.svg";
 import logoReact from "../assets/images/reactLogo.svg";
 import logoRedux from "../assets/images/reduxLogo.svg";
+import ModuleLine from "./ModuleLine";
 
 function Skills() {
 
@@ -16,7 +17,7 @@ function Skills() {
                 <h2 className={styles.mySkills}>
                     My skills
                 </h2>
-                <div className={styles.moduleLine}> </div>
+                <ModuleLine/>
                 <div className={styles.description}>
                     <Skill tittleItem={'HTML5'}
                            logo={logoHTML}
@@ -32,10 +33,10 @@ function Skills() {
                            textItem={'SPA, Props, Route, UI, BLL, State, VirtualDOM, FLUX, REST API, Pure function, Hooks, UseEffect, High Order Component (hoc), Life cycle methods, ComponentDidMount, etc...'}/>
                     <Skill tittleItem={'REDUX'}
                            logo={logoRedux}
-                           textItem={'Context API, Connect, Reducer, Action creator, Dispatch, Redux-ducks, MapStateToProps, Redux-form, Redux-thunk,  DAL, Axios.create, mapDispatchToProps, etc... '}/>
+                           textItem={'Context API, Connect, Reducer, Action creator, Dispatch, Redux-ducks, MapStateToProps, Redux-form, Redux-thunk,  DAL, Axios.create, mapDispatchToProps, etc...'}/>
                     <Skill tittleItem={'TypeScript'}
                            logo={logoTs}
-                           textItem={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...'}/>
+                           textItem={'Basic Types, Classes, Advanced Types, Declaration Merging, Decorators, Enums, Functions, Interfaces, JSX, Mixins,Modules, Namespaces, Symbols, etc...'}/>
                 </div>
             </div>
         </div>

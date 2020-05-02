@@ -22,13 +22,6 @@
     font: 700 40px/1.2 'Josefin Sans', sans-serif;
 }
 
-.moduleLine {
-    background: #45f3ff;
-    width: 170px;
-    height: 1px;
-    margin: 0 auto 80px;
-}
-
 .myProjects {
     text-align: center;
     display: flex;
@@ -37,25 +30,14 @@
     width: auto;
 }
 
-@media (max-width: 986px) {
-    .item {
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .Skills_description__125li {
-        justify-content: center;
-    }
-}
-
 @media (max-width: 1310px) {
     .myProjects {
         justify-content: center;
     }
+}
 
-    .Projects_logoItem__3dALu {
-        width: 500px;
-        height: 245px;
+@media (max-width: 580px) {
+    .allProjects {
+        margin: 40px 0 20px;
     }
 }

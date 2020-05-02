@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Contacts.module.css';
 import Zoom from 'react-reveal/Zoom';
 import Button from "../main/Button";
+import ModuleLine from "../main/ModuleLine";
 
 function Contacts() {
     return (
@@ -10,7 +11,7 @@ function Contacts() {
                 <div className={styles.contactsText}>
                     Contacts
                 </div>
-                <div className={styles.moduleLine}> </div>
+                <ModuleLine/>
                 <Zoom clear>
                     <form className={styles.contactsForm}>
                         <input placeholder='Name'
