@@ -50,7 +50,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className={styles.socialItem}>
-                        <a target="blank" href="https://t.me/Grudkowski">
+                        <a target="blank" href="https://t.me/maaakita">
                             <img src={telegramIcon}
                                  alt={'telegramIcon'}
                                  title={'telegramIcon'}
@@ -59,7 +59,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.footerCopyright}>
-                    &copy;2020 All Rights Reserved
+                    &copy;2021 All Rights Reserved
                 </div>
             </div>
         </div>

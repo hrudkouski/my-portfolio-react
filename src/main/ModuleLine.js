@@ -3,7 +3,9 @@ import styles from './ModuleLine.module.css';
 
 function ModuleLine() {
     return (
-        <div className={styles.moduleLine}> </div>
+        <div className={styles.moduleLine}>
+
+        </div>
     );
 }
 
