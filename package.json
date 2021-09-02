@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://hrudkouski.github.io/my-portfolio-react",
   "dependencies": {
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-particles-js": "^3.5.3",
