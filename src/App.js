@@ -7,15 +7,16 @@ import Projects from "./main/Projects";
 import Slogan from "./main/Slogan";
 import Contacts from "./footer/Contacts";
 import Footer from "./footer/Footer";
-import Particles from 'react-particles-js';
+import Particles from "react-particles-js";
+
 
 const particlesOpt = {
     particles: {
         number: {
-            value: 50,
+            value: 35,
             density: {
                 enable: true,
-                value_area: 500
+                value_area: 600
             }
         }
     }
